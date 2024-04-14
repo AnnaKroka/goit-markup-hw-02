@@ -45,10 +45,8 @@ body {
 
 .text-background:active {
     background: #404bbf;
-    width: 48px;
-    height: 4px;
-}
-
+   }
+   
 .top-contact {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
