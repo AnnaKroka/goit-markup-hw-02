@@ -9,20 +9,7 @@ text-decoration: none;
 
 button {
     cursor: pointer;
-  /*  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
-    background: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
-
-button:hover,
-button:focus {
-    background: #404bbf;
-}
-
+    }
 
 body {
     font-family: "Roboto", sans-serif;
@@ -37,10 +24,10 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 .text-blue {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -63,7 +50,7 @@ body {
     height: 4px;
 }
 
-.top-contact-link {
+.top-contact {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -85,19 +72,38 @@ body {
 .heading-first {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
+.order-service-btn {
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background: #404bbf;
+}
+
 .heading-second {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
+}
+
+.page-item {
+    background-color: #ffffff;
 }
 
 .heading-third {
@@ -135,5 +141,9 @@ background: #f4f4fd;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5; 
+}
+
+.text-white-footer {
+color: #f4f4fd;
 }
